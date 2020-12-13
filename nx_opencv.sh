@@ -17,7 +17,7 @@ folder="$1"
 user="nvidia"
 passwd="nvidia"
 
-echo "** Remove OpenCV4.1 first"
+echo "** Remove Order Versio of OpenCV"
 sudo sudo apt-get purge *libopencv*
 
 echo "** Install requirement"
@@ -46,4 +46,4 @@ sudo make -j6
 sudo make install
 
 echo "** Install opencv-4.4.0 successfully"
-echo "** Bye :)"
+echo "** Bye :D"
