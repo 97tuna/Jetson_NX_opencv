@@ -6,7 +6,7 @@ At Jetson NX, the opencv installation is very difficult, so we recommend you ins
 
 ### Remove OpenCV4.1 first
 ```
-sudo sudo apt-get purge *libopencv*
+sudo apt-get purge *libopencv*
 ```
 
 ### Install requirement
